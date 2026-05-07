@@ -30,6 +30,6 @@ int main(){
     c1.setrun(r);
     c1.show();
 
-    return 0;1
+    return 0;
 
 }
