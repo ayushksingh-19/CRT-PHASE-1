@@ -21,7 +21,7 @@ class ATM{
 int main(){
     ATM a(50000);
     
-    a.withdarwa(500);
+    a.withdarwa(1000);
     return 0;
 
 }
