@@ -13,7 +13,7 @@ class ATM{
         }
         else{
         balance-=amount;
-        cout<<"Amount withdrawn:"<<amount<<endl;
+        cout<<"Amount withdrawn"<<amount<<endl;
         }
         cout<<"current balance:"<<balance<<endl;
     }
