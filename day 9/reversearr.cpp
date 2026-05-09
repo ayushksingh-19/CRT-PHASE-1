@@ -3,15 +3,21 @@ using namespace std;
 
 int main(){
     int arr[5] = {1, 2, 3, 4, 5};
+    int i = 0;
+    int j = 4;
 
-    for(int i = 0; i < 5 / 2; i++){
+    while(i < j){
         int temp = arr[i];
-        arr[i] = arr[4 - i];
-        arr[4 - i] = temp;
+        arr[i] = arr[j];
+        arr[j] = temp;
+        i++;
+        j--;
     }
 
-    for(int i = 0; i < 5; i++){
+    i = 0;
+    while(i < 5){
         cout << arr[i] << " ";
+        i++;
     }
 
     return 0;
