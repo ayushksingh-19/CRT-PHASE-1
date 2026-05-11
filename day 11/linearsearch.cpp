@@ -16,12 +16,12 @@ int linearsearch(int nums[],int n,int target){
 int main() {
     int arr[] = {2, 3, 4, 10, 40,80,90,65,45,77};
     int n = sizeof(arr) / sizeof(arr[0]);
-    int x = 45;
+    int x = 56;
     int res = linearsearch(arr, n, x);
     if (res == -1)
-       cout << "Element is not present in the array";
+       cout << "Element is not  in the array";
     else
-       cout << "Element is present at index " << res;
+       cout << "Element at index " << res;
     return 0;
 }
 
