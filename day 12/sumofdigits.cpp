@@ -9,8 +9,10 @@ int sumofdigit(int n)
 }
 int main()
 {
-    int num=12345;
+    int num;
+    cout<<"enter digit:";
+    cin>>num;
     int result=sumofdigit(num);
-    cout<<result<<endl;
+    cout<<"sum of digit is:"<<result<<endl;
     return 0;
 }
