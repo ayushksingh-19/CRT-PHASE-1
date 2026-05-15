@@ -23,7 +23,7 @@ public:
         temp->data = val;
         temp->next = topNode;
         topNode = temp;
-        count++;
+        count++; 
     }
 
     void pop() {
